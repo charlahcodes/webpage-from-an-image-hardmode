@@ -1,0 +1,49 @@
+body {
+  padding: 20px;
+  font-family: helvetica, sans-serif;
+}
+
+.orangeheader {
+  background-color: #FA6838;
+  color: white;
+  padding: 9px 100px;
+
+}
+
+.freeshipping {
+  background-color: #C7532B;
+  padding: 5px 6px;
+  font-size: 10px;
+  letter-spacing: 1px;
+  border-radius: 3px;
+  
+}
+
+.springsavings {
+  font-size: 13px;
+  padding: 9px;
+}
+
+.menubar {
+
+}
+
+.logo {
+  background: url('images/logo-stack@2x.png') no-repeat 0 0;
+  background-size: 128px 117px;
+  width: 128px;
+  height: 117px;
+  margin-left: 8%;
+  display: inline-block;
+}
+
+.menuoptions {
+}
+
+.perforated {
+  background-image: url('images/perforated-bottom@2x.png');
+  background-repeat: repeat;
+  background-size: 44px 5px;
+  width: 100%;
+  height: 5px;
+}
