@@ -102,13 +102,15 @@ body {
 
 }
 
+/* main image */
+
 .perforated {
   background-image: url('images/perforated-bottom@2x.png');
   background-repeat: repeat;
   background-size: 44px 5px;
   width: 100%;
   height: 5px;
-  z-index: 1;
+  z-index: 2;
 }
 
 .mainimage {
@@ -118,4 +120,38 @@ body {
   z-index: 0;
 }
 
-/* main image */
+.tieimages {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.tieimages li {
+  display: inline-block;
+  margin: 0px -8px;
+  z-index: 1;
+}
+
+.tieimages li span {
+  text-align: center;
+  margin-left: 100%;
+  margin-right: 0%;
+
+}
+
+.tieimages li span img {
+  width: 65%;
+}
+
+.colors ul {
+  list-style: none;
+  margin-left: 120px;
+  padding: 0;
+}
+
+.colors ul li {
+  font-size: 15px;
+  display: inline-block;
+  margin-right: 65px;
+
+}
