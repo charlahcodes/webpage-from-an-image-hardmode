@@ -3,11 +3,26 @@ body {
   font-family: helvetica, sans-serif;
 }
 
+/*header*/
 .orangeheader {
   background-color: #FA6838;
   color: white;
   padding: 9px 100px;
+}
 
+.orangeheader ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.orangeheader ul li {
+  display: inline-block;
+}
+
+.savings {
+  font-size: 14px;
+  margin-left: 10px;
 }
 
 .freeshipping {
@@ -16,7 +31,6 @@ body {
   font-size: 10px;
   letter-spacing: 1px;
   border-radius: 3px;
-  
 }
 
 .springsavings {
@@ -24,8 +38,22 @@ body {
   padding: 9px;
 }
 
+/*menu header*/
 .menubar {
+  display: inline-block;
+}
 
+.menubar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-left: 100px;
+}
+
+.menubar ul li {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
 }
 
 .logo {
@@ -33,11 +61,45 @@ body {
   background-size: 128px 117px;
   width: 128px;
   height: 117px;
-  margin-left: 8%;
-  display: inline-block;
+  padding-left: 50px;
+
 }
 
 .menuoptions {
+  padding-left: 20px;
+  font-size: 20px;
+
+}
+
+.cart {
+  border: 1px solid #E0E0E0;
+  padding: 6px 25px;
+  border-radius: 3px;
+  margin-left: 15px;
+  font-size: 14px;
+  color: #222222;
+}
+
+.cartimage {
+  background: url('images/sprite@2x.png') no-repeat 11.658% 8.511%;
+  background-size: 400px 200px;
+  width: 14px;
+  height: 12px;
+  margin-left: 21px;
+  margin-top: 9px;
+  position: absolute;
+}
+
+.search {
+
+}
+
+.search input {
+  border: 1px solid #E0E0E0;
+  border-radius: 3px;
+  margin-left: 15px;
+  width: 120px;
+
 }
 
 .perforated {
@@ -46,4 +108,14 @@ body {
   background-size: 44px 5px;
   width: 100%;
   height: 5px;
+  z-index: 1;
 }
+
+.mainimage {
+  background-color: #F4F4F4;
+  width: 100%;
+  height: 355px;
+  z-index: 0;
+}
+
+/* main image */
